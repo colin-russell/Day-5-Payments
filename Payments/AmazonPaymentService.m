@@ -12,4 +12,8 @@
 
 
 
+- (void)processPaymentAmount:(NSInteger)paymentAmount { 
+    
+}
+
 @end

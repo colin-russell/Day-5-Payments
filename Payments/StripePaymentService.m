@@ -10,4 +10,8 @@
 
 @implementation StripePaymentService
 
+- (void)processPaymentAmount:(NSInteger)paymentAmount { 
+    
+}
+
 @end

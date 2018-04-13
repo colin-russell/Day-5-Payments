@@ -19,6 +19,6 @@
 
 @property (nonatomic, weak) id<PaymentDelegate> delegate;
 
-+ (void)processPaymentAmount : (NSInteger)paymentAmount;
+- (void)processPaymentAmount : (NSInteger)paymentAmount;
 
 @end
