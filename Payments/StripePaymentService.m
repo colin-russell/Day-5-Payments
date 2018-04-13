@@ -14,4 +14,12 @@
     
 }
 
+- (BOOL)canProcessPayment { 
+    if(arc4random_uniform(1) == 1)
+        return YES;
+    else
+        return NO;
+}
+
+
 @end
