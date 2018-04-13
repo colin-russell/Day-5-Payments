@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PaymentGateway.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -21,6 +22,8 @@ int main(int argc, const char * argv[]) {
         int inputInt = [inputString intValue];
         
         NSLog(@"Entered int is: %d", inputInt);
+        
+        [PaymentGateway processPaymentAmount:randomDollarAmount];
         
     }
     return 0;
