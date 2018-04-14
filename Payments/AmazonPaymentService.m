@@ -13,11 +13,11 @@
 
 
 - (void)processPaymentAmount:(NSInteger)paymentAmount { 
-    
+    NSLog(@"Amazon processed amount $%lu", paymentAmount);
 }
 
 - (BOOL)canProcessPayment { 
-    if(arc4random_uniform(1) == 1)
+    if(arc4random_uniform(2) == 1)
         return YES;
     else
         return NO;
